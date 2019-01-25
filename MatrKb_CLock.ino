@@ -56,28 +56,6 @@ void loop() {
         lcd.setCursor(0, 1);
         lcd.print("Access denied!");
       }
-
-      /*for (i = 0; i < 4; i++)
-        { if (buttons[i] == pass[i])
-          { t = t + 1;
-          }
-        }
-
-        if (t == 4) //если все кнопки совпали, то доступ разрешён
-        {
-          lcd.clear();
-          lcd.setCursor(0, 0); //устанавливаем курсор на начало первой строки
-          lcd.print("Access!");
-          k = 0;
-          t = 0;
-        } else {
-          lcd.clear();
-          lcd.setCursor(0, 0); //устанавливаем курсор на начало первой строки
-          lcd.print("Fu!");
-          k = 0;
-          t = 0;
-        }
-      */
     }
   }
 }
