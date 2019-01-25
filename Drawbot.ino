@@ -3,8 +3,6 @@ int m1BPin = 11;
 int m2FPin = 10;
 int m2BPin = 9;
 
-
-
 int sens_raw;
 
 const byte DIR_FORWARD = 0;
@@ -12,10 +10,6 @@ const byte DIR_BACKWARD = 1;
 const byte DIR_LEFT = 2;
 const byte DIR_RIGHT = 3;
 const byte DIR_STOP = 4;
-
-
-
-
 
 void walkDir( byte dir ){
     if( dir==DIR_FORWARD ){
